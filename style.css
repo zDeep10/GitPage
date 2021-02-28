@@ -1,0 +1,147 @@
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+/* Sobre */
+.nome h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+.sobre img {
+    height: 2%;
+    width: 35%;
+    border-radius: 50px;
+    box-shadow: 0px 2px 4px 0px;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 35px;
+}
+
+.descricao {
+    max-width: 55%;
+    margin-left: 5%;
+}
+
+.descricao ul {
+    margin-top: 50px;
+}
+
+/* Profissão */
+.profissao h2 {
+    margin-top: 60px;
+    text-align: center;
+    color: rgb(55, 155, 155);
+
+}
+
+.imgs {
+    padding-top: 30px;
+    display: flex;
+}
+
+.imgs img {
+    width: 90%;
+    height: 100%;
+    border-style: inset;
+}
+
+
+.profissao p {
+    text-align: center;
+    max-width: 80%;
+    margin: 15px auto;
+}
+
+.hover:hover {
+    transition: transform .2s;
+    transform: scale(1.5);
+}
+
+/* Musicas */
+
+.musicas {
+    margin-top: 60px;
+
+}
+
+.musicas h2 {
+    text-align: center;
+    color: gray
+}
+
+.flex {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex p {
+    text-align: center;
+}
+
+/* Redes-Sociais */
+
+.redes-sociais {
+    margin-top: 60px;
+}
+
+.redes-sociais h2 {
+    text-align: center;
+    color: tomato;
+}
+
+.redes-sociais img {
+    height: 90%;
+    width: 70%;
+}
+
+
+.redes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+}
+
+/* Videos */
+.videos {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.videos h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.yout {
+    display: flex;
+}
+
+.yout iframe {
+    margin-right: 10px;
+}
